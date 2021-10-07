@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>F.R.I.E.N.D</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"'>
+    </head>
+    <body>
+        <section class='header'>
+            <nav>
+               <div class='nav-links' id='navLinks'>
+                   <i class="fa fa-times" onclick='hideMenu()'></i>
+                   <ul>
+                       <li><a href="">LET'S TALK</a></li>
+                       <li><a href="">HOW YOU CAN HELP</a></li>
+                       <li><a href="">HOW TO GET HELP</a></li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick='showMenu()'></i>
+            </nav>
+
+<div class='text-box'>
+    <h1>F.R.I.E.N.D.S</h1>
+    <p>"Even if life gives you hell, don't forget there's always someone who's on your side"-Lina Im.</p>
+</div>
+
+        </section>
+
+<!------JavaScript for Toggle Menu------>
+        <script>
+
+            var navLinks = documeent.getElementById('navLinks')
+            function showMenu(){
+                navLinks.style.right = '0';
+            }
+            function hideMenu(){
+                navLinks.style.right = '-200px';
+            }
+
+        </script>
+
+        <!------ Featured Topics ------>
+
+        <section class='featuredtopics'>
+            <h1>Featured Topics</h1>
+            <p>Look at the latest articles</p>
+
+            <div class='row'>
+                <div class='featuredtopics-col'>
+                    <h3>Binge Eating</h3>
+                    <p>Binge eating is a severe disorder characterized by reoccurring episodes of eating large amounts of food in a short period of time. Some feel discomfort and shame after the episodes are over. Thus, some take extreme meaures to make up for the binge eating such as not eating for a while. Take a look in depth of what the episodes look like and why it is one of the most common eating disorders in the United States.</p>
+                </div>
+                <div class='featuredtopics-col'>
+                    <h3>Beautiful Boy</h3>
+                    <p>Beautiful Boy is a movie about a seemingless perfect kid Nicolas Sheff. He is what you call a star student with perfect grades as well as being an athlete, artist, and editor of the school newspaper. He's what every student aspire to be, but not everyone is what they seem. Nicolas is addicted to meth, and his addiction to meth threatens to destroy him. Look at this movie of a dedicated father who does whatever it takes to save his son.</p>
+                </div>
+                 <div class='featuredtopics-col'>
+                     <h3>Laxative Abuse</h3>
+                    <p>People abuse laxatives in attempt to eliminate calories and to lose weight. Laxative intake are often followed with eating binges because the consumer believes the laxatives will quickly eliminate the calories before they are absorbed which is untrue. Learn more about laxative abuse and see why it could lead to health complications and sometimes threaten your life.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

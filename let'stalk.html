@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>F.R.I.E.N.D</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"'>
+    </head>
+    <body>
+        <section class='header'>
+            <nav>
+               <div class='nav-links' id='navLinks'>
+                   <i class="fa fa-times" onclick='hideMenu()'></i>
+                   <ul>
+                       <li><a href="">LET'S TALK</a></li>
+                       <li><a href="">HOW YOU CAN HELP</a></li>
+                       <li><a href="">HOW TO GET HELP</a></li>
+                       <li><a href="">ARTICLES</a></li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick='showMenu()'></i>
+            </nav>
+
+<div class='text-box'>
+    <h1>F.R.I.E.N.D.S</h1>
+    <p>"Even if life gives you hell, don't forget there's always someone who's on your side"-Lina Im.</p>
+</div>
+
+        </section>
+
+<!------JavaScript for Toggle Menu------>
+        <script>
+
+            var navLinks = documeent.getElementById('navLinks')
+            function showMenu(){
+                navLinks.style.right = '0';
+            }
+            function hideMenu(){
+                navLinks.style.right = '-200px';
+            }
+
+        </script>
+
+        <!-------- Footer -------->
+
+        <section class='footer'>
+            <h4>About Us</h4>
+            <p>F.R.I.E.N.D.S is dedicated to educate our communities of the importance of mental health.<br>We aspire to help and encourage people struggling alone.</p>
+            <div class='icons'>
+                <i class='fa fa-tiktok'></i>
+            </div>
+            <p>Made with <i class='fa fa-heart-o'></i> by F.R.I.E.N.D.S</p>
+        </section>
+    </body>
+</html>

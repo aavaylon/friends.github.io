@@ -164,3 +164,9 @@ h3{
 .letstalk-col p{
     padding: 15px 0 25px;
 }
+
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}

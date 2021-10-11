@@ -170,3 +170,11 @@ h3{
     background: #f44336;
     color: #fff;
 }
+
+.letstalk-col h2{
+    padding-top: 0;
+}
+
+.letstalk-col p{
+    padding: 15px 0 25px;
+}

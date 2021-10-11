@@ -178,3 +178,9 @@ h3{
 .letstalk-col p{
     padding: 15px 0 25px;
 }
+
+.bg-image {
+    background-size: 50% 50px;
+    padding: 20em;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJujutsu_Kaisen&psig=AOvVaw00kqjiIeoSkRJzfjWhZxC7&ust=1634005370583000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIC_lL6mwfMCFQAAAAAdAAAAABAD)
+}

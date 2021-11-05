@@ -177,10 +177,13 @@ h3{
 #depression{
     padding: 100px 0;
 }
-    .depression-row{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+.depression-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.depression-left-col{
+    flex-basis: 50%
 }
 .depression-right-col{
     flex-basis: 50%
@@ -188,6 +191,4 @@ h3{
 .depression-right-col img{
     width: 100%;
 }
-.depression-left-col{
-    flex-basis: 50%
-}
+

@@ -158,23 +158,12 @@ h3{
     color: #fff;
 }
 
-.letstalk-col h1{
-    padding-top: 0;
+.letstalk-left-col{
+    flex-basis: 50%;
 }
-.letstalk-col p{
-    padding: 15px 0 25px;
+.letstalk-left-col img{
+    width: 100%;
 }
-
-.red-btn{
-    border: 1px solid #f44336;
-    background: #f44336;
-    color: #fff;
-}
-
-.letstalk-col h2{
-    padding-top: 0;
-}
-
-.letstalk-col p{
-    padding: 15px 0 25px;
+.letstalk-right-col{
+    flex-basis: 50%;
 }

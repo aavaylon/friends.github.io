@@ -182,12 +182,12 @@ h3{
         align-items: center;
         flex-wrap: wrap;
 }
-.depression-left-col{
+.depression-right-col{
     flex-basis: 50%
 }
 .depression-right-col img{
     width: 100%;
 }
-.depression-right-col{
+.depression-left-col{
     flex-basis: 50%
 }

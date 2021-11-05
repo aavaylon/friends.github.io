@@ -176,8 +176,6 @@ h3{
 
 #depression{
     padding: 100px 0;
-}
-.depression-row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;

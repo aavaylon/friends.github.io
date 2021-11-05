@@ -174,3 +174,8 @@ h3{
     flex-basis: 50%;
     text-align: right;
 }
+.letstalk-text{
+    max-width: 500px;
+    margin-right 100px;
+    display: inline-block;
+}

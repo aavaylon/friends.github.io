@@ -158,19 +158,19 @@ h3{
     color: #fff;
 }
 
-#letstalk{
+#bingeeating{
     padding: 100px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.letstalk-left-col{
+.bingeeating-left-col{
     flex-basis: 50%;
 }
-.letstalk-left-col img{
+.bingeeating-left-col img{
     width: 100%;
 }
-.letstalk-right-col{
+.bingeeating-right-col{
     flex-basis: 50%;
 }
 

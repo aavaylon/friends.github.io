@@ -158,7 +158,7 @@ h3{
     color: #fff;
 }
 
-#bingeeating, #socialanxiety, #sleepdisorder, #schizophrenia{
+#bingeeating, #socialanxiety, #sleepdisorder{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -191,17 +191,8 @@ h3{
 .sleepdisorder-right-col{
     flex-basis: 50%;
 }
-.schizophrenia-left-col{
-    flex-basis: 50%;
-}
-.schizophrenia-left-col img{
-    width: 100%;
-}
-.schizophrenia-right-col{
-    flex-basis: 50%;
-}
 
-#depression, #stress{
+#depression, #stress, #schizophrenia{
     padding: 100px 0;
 }
 .depression-row{
@@ -232,5 +223,13 @@ h3{
 .stress-left-col{
     flex-basis: 50%;
 }
-
+.schizophrenia-right-col{
+    flex-basis: 50%;
+}
+.schizophrenia-right-col img{
+    width: 100%;
+}
+.schizophrenia-left-col{
+    flex-basis: 50%;
+}
 

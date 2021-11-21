@@ -223,6 +223,11 @@ h3{
 .stress-left-col{
     flex-basis: 50%;
 }
+.schizophrenia-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .schizophrenia-right-col{
     flex-basis: 50%;
 }

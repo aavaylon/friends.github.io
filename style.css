@@ -158,7 +158,7 @@ h3{
     color: #fff;
 }
 
-#bingeeating, #socialanxiety, #sleepdisorder{
+#bingeeating, #socialanxiety, #sleepdisorder, #personalitydisorder{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -189,6 +189,15 @@ h3{
     width: 100%;
 }
 .sleepdisorder-right-col{
+    flex-basis: 50%;
+}
+.personalitydisorder-left-col{
+    flex-basis: 50%;
+}
+.personalitydisorder-left-col img{
+    width: 100%;
+}
+.personalitydisorder-right-col{
     flex-basis: 50%;
 }
 

@@ -194,6 +194,8 @@ h3{
 
 #socialanxiety{
     padding: 100px 0;
+}
+.socialanxiety-row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;

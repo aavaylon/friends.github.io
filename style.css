@@ -201,7 +201,7 @@ h3{
     flex-basis: 50%;
 }
 
-#depression, #stress, #schizophrenia{
+#depression, #stress, #schizophrenia, #bipolar{
     padding: 100px 0;
 }
 .depression-row{
@@ -246,4 +246,17 @@ h3{
 .schizophrenia-left-col{
     flex-basis: 50%;
 }
-
+.bipolar-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bipolar-right-col{
+    flex-basis: 50%;
+}
+.bipolar-right-col img{
+    width: 100%;
+}
+.bipolar-left-col{
+    flex-basis: 50%;
+}

@@ -191,3 +191,20 @@ h3{
 .depression-left-col{
     flex-basis: 50%;
 }
+
+#socialanxiety{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.socialanxiety-left-col{
+    flex-basis: 50%;
+}
+.soicalanxiety-left-col img{
+    width: 100%;
+}
+.socialanxiety-right-col{
+    flex-basis: 50%;
+}
+

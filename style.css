@@ -158,7 +158,7 @@ h3{
     color: #fff;
 }
 
-#bingeeating{
+#bingeeating, #socialanxiety{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -171,6 +171,15 @@ h3{
     width: 100%;
 }
 .bingeeating-right-col{
+    flex-basis: 50%;
+}
+.socialanxiety-left-col{
+    flex-basis: 50%;
+}
+.socialanxiety-left-col img{
+    width: 100%;
+}
+.socialanxiety-right-col{
     flex-basis: 50%;
 }
 
@@ -191,20 +200,4 @@ h3{
 .depression-left-col{
     flex-basis: 50%;
 }
-#socialanxiety{
-    padding: 100px 0;
-}
-.socialanxiety-row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.socialanxiety-left-col{
-    flex-basis: 50%;
-}
-.socialanxiety-left-col img{
-    width: 100%;
-}
-.socialanxiety-right-col{
-    flex-basis: 50%;
-}
+

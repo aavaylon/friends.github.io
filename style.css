@@ -183,7 +183,7 @@ h3{
     flex-basis: 50%;
 }
 
-#depression{
+#depression, #stress{
     padding: 100px 0;
 }
 .depression-row{
@@ -200,4 +200,19 @@ h3{
 .depression-left-col{
     flex-basis: 50%;
 }
+.stress-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stress-right-col{
+    flex-basis: 50%;
+}
+.stress-right-col img{
+    width: 100%;
+}
+.stress-left-col{
+    flex-basis: 50%;
+}
+
 

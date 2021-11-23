@@ -158,19 +158,19 @@ h3{
     color: #fff;
 }
 
-#bingeeating, #socialanxiety, #sleepdisorder, #personalitydisorder{
+#panicattack, #socialanxiety, #sleepdisorder, #personalitydisorder{
     padding: 100px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.bingeeating-left-col{
+.panicattack-left-col{
     flex-basis: 50%;
 }
-.bingeeating-left-col img{
+.panicattack-left-col img{
     width: 100%;
 }
-.bingeeating-right-col{
+.panicattack-right-col{
     flex-basis: 50%;
 }
 .socialanxiety-left-col{
@@ -201,7 +201,7 @@ h3{
     flex-basis: 50%;
 }
 
-#depression, #stress, #schizophrenia, #bipolar{
+#depression, #stress, #psychosis, #adhd{
     padding: 100px 0;
 }
 .depression-row{
@@ -232,31 +232,31 @@ h3{
 .stress-left-col{
     flex-basis: 50%;
 }
-.schizophrenia-row{
+.psychosis-row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.schizophrenia-right-col{
+.psychosis-right-col{
     flex-basis: 50%;
 }
-.schizophrenia-right-col img{
+.psychosis-right-col img{
     width: 100%;
 }
-.schizophrenia-left-col{
+.psychosis-left-col{
     flex-basis: 50%;
 }
-.bipolar-row{
+.adhd-row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.bipolar-right-col{
+.adhd-right-col{
     flex-basis: 50%;
 }
-.bipolar-right-col img{
+.adhd-right-col img{
     width: 100%;
 }
-.bipolar-left-col{
+.adhd-left-col{
     flex-basis: 50%;
 }

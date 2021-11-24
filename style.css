@@ -89,6 +89,19 @@ nav .fa{
 .nav-links ul{
     padding: 30px;
 }
+
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb (0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
 /*----- featured topics -----*/
 
 .featuredtopics{

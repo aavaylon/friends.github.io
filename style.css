@@ -94,6 +94,15 @@ nav .fa{
 {
     display: none;
 }
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #f44336;
+    margin-top: 15px;
+    margin-left: -15px;
+}
 /*----- featured topics -----*/
 
 .featuredtopics{

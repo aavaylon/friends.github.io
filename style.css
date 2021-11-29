@@ -95,7 +95,7 @@ nav .fa{
     display: none;
 }
 
-.menu-bar ul li:hover .sub-menu-1
+.nav-links ul li:hover .sub-menu-1
 {
     display: block;
     position: absolute;

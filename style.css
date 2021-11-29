@@ -90,6 +90,10 @@ nav .fa{
     padding: 30px;
 }
 
+.sub-menu-1
+{
+    display: none;
+}
 /*----- featured topics -----*/
 
 .featuredtopics{
